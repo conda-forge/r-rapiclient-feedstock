@@ -1,11 +1,11 @@
-About r-rapiclient
-==================
+About r-rapiclient-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rapiclient-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bergant/rapiclient
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rapiclient-feedstock/blob/main/LICENSE.txt)
 
 Summary: Access services specified in OpenAPI (formerly Swagger) format. It is not a code generator. Client is generated dynamically as a list of R functions.
 
