@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rapiclient_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rapiclient/rapiclient_{{ version }}.tar.gz
-  sha256: a84d94427125fd503ab60f626a60fb04447cced8727bed96aeb982e44e29224d
+  sha256: 8ac59641aed91d13d0086ddb180de1cddf935f0b7388bd2b0793e62c66ade6f6
 
 build:
   merge_build_host: true  # [win]
