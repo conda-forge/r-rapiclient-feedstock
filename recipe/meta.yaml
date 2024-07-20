@@ -1,6 +1,5 @@
 {% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rapiclient
@@ -13,8 +12,7 @@ source:
   sha256: 8ac59641aed91d13d0086ddb180de1cddf935f0b7388bd2b0793e62c66ade6f6
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
