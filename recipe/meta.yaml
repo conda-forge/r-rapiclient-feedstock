@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.1.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rapiclient_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rapiclient/rapiclient_{{ version }}.tar.gz
-  sha256: b2b77f1234f53f1732360bef2b813291413d28891a93437d9cbd888fdf4f804f
+  sha256: 1ced6376de92f2d99bde91c94d87dd6e8fe76ee09e6cd4b0c87b48f5379b9faa
 
 build:
   number: 0
